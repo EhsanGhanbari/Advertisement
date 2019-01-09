@@ -1,0 +1,53 @@
+﻿#loginBox {
+    background-color:aliceblue!important;
+    margin: 20px 0;
+    border: solid #333333 1px;
+    border-radius : 10px;
+}
+
+#loginBox hr {
+    margin: 10px;
+    border: dashed #333333 3px;
+}
+
+#loginBox form div {
+    padding:5px;
+}
+
+#loginBox form div input[type=text] {
+    width:80%;
+    text-align:center;
+}
+
+.caret:before {
+    content: "\e604";
+    font-family: 'Simple-Line-Icons';
+    right: 2px !important;
+    top: -20px;
+    font-size: 11px;
+    float: right;
+    position: absolute;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-right {
+        float: left !important;
+        margin-right: -15px;
+    }
+}
+
+#carousel-area .carousel-inner .item .carousel-caption h2 {
+    color: tomato !important;
+}
+
+#roof .quick-contacts {
+    float: left !important;
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+    .navbar-brand {
+        float: left !important;
+        left: 0;
+    }
+}

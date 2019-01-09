@@ -1,0 +1,16 @@
+﻿.sidebar {
+right: 0;
+}
+.main-panel {
+    float:left;
+}
+
+.sidebar .nav i {
+    font-size: 28px;
+    float: right!important;
+    margin-right: 0px!important;
+    margin-left: 15px!important;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+}
